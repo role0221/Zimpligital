@@ -26,6 +26,7 @@ $ yarn install
 APP_PORT=3800
 APP_TITLE="Zimpligital"
 NODE_ENV=development
+APP_DESCRIPTION='Swagger for Stock/Crypto Price API Testing (Backend)'
 
 DB_PORT=5432
 DB_HOST=localhost
