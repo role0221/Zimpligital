@@ -28,6 +28,7 @@ APP_TITLE="Zimpligital"
 NODE_ENV=development
 APP_DESCRIPTION='Swagger for Stock/Crypto Price API Testing (Backend)'
 
+#This project is focused solely on data retrieval and does not require database operations.
 DB_PORT=5432
 DB_HOST=localhost
 DB_USER=postgres
@@ -38,7 +39,7 @@ DB_NAME=postgres
 ## Run Docker DB
 
 ```bash
-
+# This project is focused solely on data retrieval and does not require database operations.
 docker run --name my_postgres -e POSTGRES_PASSWORD=123456789 -p 5432:5432 -d postgres
 
 ```
